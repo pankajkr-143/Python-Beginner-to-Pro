@@ -1,0 +1,36 @@
+Day - 2
+
+1. Class and objects
+
+Class is blue print for creating objects.
+
+#creating class
+
+class Students:
+    name = "karan kumar"
+
+#creating objects(instance)
+
+s1 = Students()
+print(s1.name)
+
+--------------------------------------------------------------
+
+2. Constructor
+
+All classes have a function called _init_(), which is always execute when the class is being initiated.
+
+#creating class
+
+class Students:
+    def _init_(self, fullname):
+        self.name = fullname
+
+
+#creating objects
+
+s1 = Students("karan")
+print(s1.name)
+
+The self parameter is reference to the current instance of he class, and is used to access variables that belongs to the class.
+
