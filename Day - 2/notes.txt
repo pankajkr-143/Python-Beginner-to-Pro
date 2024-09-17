@@ -1,4 +1,7 @@
-Day - 2
+OOP in Python
+To map with real world scenarions, we started using objects in code.
+This is called object oriented programming
+
 
 1. Class and objects
 
@@ -15,8 +18,13 @@ s1 = Students()
 print(s1.name)
 
 --------------------------------------------------------------
+2. Class & instance Attributes
 
-2. Constructor
+- Class.attr
+- obj.attr
+---------------------------------------------------------------
+
+3. Constructor (__init__ function)
 
 All classes have a function called _init_(), which is always execute when the class is being initiated.
 
@@ -33,4 +41,43 @@ s1 = Students("karan")
 print(s1.name)
 
 The self parameter is reference to the current instance of he class, and is used to access variables that belongs to the class.
+-----------------------------------------------------------------
+4. Methods
+Methods are functions that belong to objects.
+
+#creating class
+
+class Students:
+    def __init__ (self, fullname):
+        self.name = fullname
+
+    
+    def hello(self)
+        print("hello", self.name)
+
+
+#creating object
+s1 = Students("karan")
+print(s1.hello)
+--------------------------------------------------------------------
+5. Static Methods
+
+Methods that don’t use the self parameter (work at class level)
+
+class Student:
+    @staticmethod
+    def college( ):
+        print( “ABC College” )
+
+#decorator
+
+*Decorators allow us to wrap another function in order to
+extend the behaviour of the wrapped function, without
+permanently modifying it
+---------------------------------------------------------------------
+Important
+
+Abstraction: Hiding the implementation details of a class and only showing the essential features to the user.
+
+Encapsulation: Wrappimg data and functions into a single unit (object).
 
