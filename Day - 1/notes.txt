@@ -1,0 +1,51 @@
+Our First Program
+print("Hello World")
+
+------------------------------------------------------------------------
+
+Python Character Set
+
+Letters – A to Z, a to z
+Digits – 0 to 9
+Special Symbols - + - * / etc.
+Whitespaces – Blank Space, tab, carriage return, newline, formfeed
+Other characters – Python can process all ASCII and Unicode characters as part of data or literals
+
+-------------------------------------------------------------------------
+
+Variables
+
+name = "Shradha"
+age = 23
+price = 25.99
+A variable is a name given to a memory location in a program.
+
+------------------------------------------------------------------------
+
+Memory
+
+name = "Shradha"
+age = 23
+price = 25.99
+
+-----------------------------------------------------------------------
+
+Rules for Identifiers
+
+1. Identifiers can be combination of uppercase and lowercase Letters, Digits or an underscore(_).
+    So myVariable, variable_1, variable_for_print all are valid python Identifiers.
+
+2. An Identifiers can not start with Digit. So while variable1 is valid, 1variable is not valid.
+
+3. We can't use Special Symbols like !,@,#,$,%,&,^ etc in our Identifiers.
+Identifiers can be of any length
+
+-----------------------------------------------------------------------
+
+Data Types
+
+Integers
+String
+Float
+Boolean
+None
